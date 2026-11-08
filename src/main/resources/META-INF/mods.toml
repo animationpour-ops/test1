@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="All-Rights-Reserved"
+
+[[mods]]
+modId="divinitems"
+version="1.0.0"
+displayName="Items Divins"
+description='''
+Forge céleste, armes et armures de Niveau Divin avec capacités et effets visuels.
+Projet perso pour le fun.
+'''
+
+[[dependencies.divinitems]]
+modId="forge"
+mandatory=true
+versionRange="[52,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.divinitems]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
